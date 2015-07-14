@@ -424,3 +424,9 @@ textarea:focus,input[type=search]:focus,input[type=text]:focus,input.focus{
         overflow: hidden;
         margin: 0 -15px;} 
 }
+iframe {
+	padding-bottom: 4%;
+	padding-right: 0;
+	padding-left: 0;
+
+}
