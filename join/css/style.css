@@ -196,49 +196,6 @@ textarea:focus,input[type=search]:focus,input[type=text]:focus,input.focus{
 	margin-left:0
 }
 
-#searchMe {
-	margin-top: 10px;
-}
-
-.event {
-	padding: 20px 20px 20px 108px;
-	margin-bottom: 12px;
-	margin-top: 10px;
-	position: relative;
-	background: #FFF none repeat scroll 0% 0%;
-	border-radius: 5px;
-}
-
-.event-time {
-	position: absolute;
-	left: 20px;
-	top: 20px;
-}
-
-.calendar {
-	width: 48px;
-	padding: 6px 10px 16px;
-	text-align: center;
-	font: 10px/1 "Open Sans Light","Lucida Sans","Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
-	background: transparent url("https://mozilla.org.uk/media/img/bg-date-lt.png") no-repeat scroll center top;
-}
-
-.calendar-month {
-	display: block;
-	font-size: 1.4em;
-	text-transform: uppercase;
-}
-
-.calendar-date {
-	display: block;
-	font-size: 2.6em;
-	line-height: 0.95;
-}
-
-.calendar-year {
-	display: block;
-	font-size: 1.4em;
-}
 /* Media Queries */
 @media only screen and (max-width: 768px) {
 	#nav-main .toggle {
@@ -361,12 +318,6 @@ textarea:focus,input[type=search]:focus,input[type=text]:focus,input.focus{
 		width: 90%!important;
 	}
 
-	#searchMe{
-		display: block;
-		margin: 20px auto;
-		width: 90%!important;
-	}
-
 	h1 {
 		font-size: 32px;
 		letter-spacing: -1px;
@@ -391,11 +342,6 @@ textarea:focus,input[type=search]:focus,input[type=text]:focus,input.focus{
 	#centfix{
 		max-width: 800px; 
 		margin: 0 auto;
-	}
-	#searchMe{
-		display: block;
-		margin: 20px auto;
-		width: 780px;
 	}
 
 }

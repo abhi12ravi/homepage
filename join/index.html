@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="vibe">
+<html lang="en">
   <head>
-    <title ng-bind="'Join | Mozilla ' + countryName">
+    <title>
+        Join | Mozilla India
     </title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="assets/favicon.ico" rel="icon">
+    <link href="../img/favicon.ico" rel="icon">
     <link href="css/style.css" rel="stylesheet"><!--Site Specific Stylesheets-->
   </head><!--Navigation Header-->
 
-  <body ng-controller="mainCtrl">
+  <body>
     <header id="masthead">
       <a href="//www.mozilla.org/" id="tabzilla">Mozilla</a>
       <nav id="nav-main">
@@ -23,17 +24,14 @@
             <a href="//www.mozilla.org/mission/">Mission</a>
           </li>
 
-          <li ng-if="blogUrl">
-            <a href="{{blogUrl}}">Blog</a>
+          <li>
+            <a href="http://blog.mozillaindia.org/">Blog</a>
           </li>
 
-          <li ng-if="hiveUrl">
-            <a href="{{hiveUrl}}">Hive</a>
+          <li>
+            <a href="http://hive.mozillaindia.org/">Hive</a>
           </li>
 
-          <li class="last" ng-if="leaderboardUrl">
-            <a href="{{leaderboardUrl}}">Leaderboard</a>
-          </li>
         </ul>
       </nav>
     </header>
@@ -82,12 +80,8 @@
       </div>
     </footer>
 
-    <noscript>JavaScript has to be enabled on your browser to get this working.</noscript>
       <!--Tabzilla stylesheet-->
       <link href="http://mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet">
         <script src="http://mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-        <script type="text/javascript" src="config.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
